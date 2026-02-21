@@ -1,0 +1,14 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="#0d2b4d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Head -->
+    <circle cx="24" cy="24" r="6"/>
+
+    <!-- Body -->
+    <path d="M14 46c0-6 6-10 10-10s10 4 10 10"/>
+
+    <!-- Shield -->
+    <path d="M40 22l10 5v8c0 6-4.5 10.5-10 12-5.5-1.5-10-6-10-12v-8l10-5z"/>
+
+  </g>
+</svg>

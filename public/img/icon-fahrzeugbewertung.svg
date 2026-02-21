@@ -1,0 +1,19 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="currentColor"
+ stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Car body -->
+    <path d="M16 36h30c3 0 6 2 7 5l1 3H12l1-3c1-3 4-5 7-5z"/>
+    <path d="M20 36l4-10c1-2 3-3 5-3h12c2 0 4 1 5 3l3 7"/>
+    <path d="M22 29h20"/>
+
+    <!-- Wheels -->
+    <circle cx="20" cy="44" r="3.5"/>
+    <circle cx="44" cy="44" r="3.5"/>
+
+    <!-- Magnifying glass -->
+    <circle cx="46" cy="30" r="6.5"/>
+    <line x1="50.8" y1="34.8" x2="56" y2="40"/>
+
+  </g>
+</svg>

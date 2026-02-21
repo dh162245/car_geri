@@ -1,0 +1,19 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="#0d2b4d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Clipboard -->
+    <rect x="16" y="14" width="28" height="38" rx="4"/>
+    <rect x="22" y="8" width="16" height="8" rx="3"/>
+
+    <!-- Euro symbol -->
+    <path d="M28 28c0-3 2-5 5-5 2 0 3.5.8 4.5 2"/>
+    <path d="M28 36c0 3 2 5 5 5 2 0 3.5-.8 4.5-2"/>
+    <line x1="24" y1="30" x2="38" y2="30"/>
+    <line x1="24" y1="34" x2="36" y2="34"/>
+
+    <!-- Magnifying glass -->
+    <circle cx="46" cy="42" r="6"/>
+    <line x1="50.5" y1="46.5" x2="56" y2="52"/>
+
+  </g>
+</svg>
