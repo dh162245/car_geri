@@ -92,7 +92,7 @@ a{color:inherit}
   background: var(--navy);
   color: #fff;
 }
-.btn,
+
 .btn-primary:hover {
   background: #08203a; /* slightly darker navy */
   transform: translateY(-2px);
@@ -114,7 +114,7 @@ a{color:inherit}
   transform: translateY(-2px);
   box-shadow: 0 14px 30px rgba(13, 43, 77, 0.25);
 }
-.btn::after,
+
 .btn-primary::after,
 .btn-secondary::after {
   content: "";
@@ -132,7 +132,7 @@ a{color:inherit}
   transform: skewX(-20deg);
 }
 
-.btn:hover::after,
+
 .btn-primary:hover::after,
 .btn-secondary:hover::after {
   animation: shine 0.7s ease forwards;
@@ -251,7 +251,7 @@ a{color:inherit}
   background:
     radial-gradient(900px 400px at 80% 30%, rgba(13,43,77,.22), transparent 60%),
     radial-gradient(700px 320px at 20% 20%, rgba(13,43,77,.14), transparent 60%);
-    background-image: url(../public/img/hero.png);
+    background-image: url(../public/img/hero.webp);
     background-size: cover;
   pointer-events:none;
 }
@@ -550,12 +550,45 @@ a{color:inherit}
   border-color:rgba(13,43,77,.45);
   box-shadow:0 0 0 4px rgba(13,43,77,.10);
 }
-.checkbox{display:inline-flex!important; gap:10px;align-items:center;margin-top:6px}
+.checkbox{display:flex!important; gap:10px;align-items:center;margin-top:6px}
 .checkbox input{margin-top:4px}
 .checkbox a{color:var(--navy);font-weight:850;text-decoration:none}
 .checkbox a:hover{text-decoration:underline}
 .contact__submit{width:100%;margin-top:6px}
 .form-hint{margin:10px 0 0;font-size:13px}
+
+.contact__form label.checkbox {
+  display: flex !important;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 10px 0 14px;
+}
+
+.contact__form label.checkbox span {
+  display: block;
+  line-height: 1.4;
+}
+
+.contact__form label.checkbox input {
+  width: 18px;
+  height: 18px;
+  margin: 2px 0 0;
+  flex: 0 0 auto;
+  accent-color: var(--navy);
+}
+.contact__form label.checkbox {
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+.contact__form label.checkbox a {
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.contact__form label.checkbox a:hover {
+  text-decoration: underline;
+}
 
 .footer{
   background:var(--navy);
@@ -589,7 +622,7 @@ a{color:inherit}
 
   .hero__bg {
     min-height: 80vh;
-    background-image: url("../public/img/hero-mobile.png");
+    background-image: url("../public/img/hero-mobile.webp");
   }
 
   
